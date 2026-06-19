@@ -134,7 +134,7 @@ app.get('/stats', async (req, res) => {
 
 // ========== EMPÊCHER LE SERVEUR DE S'ENDORMIR ==========
 setInterval(() => {
-    fetch('https://orientainfo-backend.onrender.com')
+    fetch('https://orientainfo-backend-1.onrender.com')
         .catch(() => {});
 }, 14 * 60 * 1000);
 
